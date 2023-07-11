@@ -5,7 +5,7 @@ export default function Main() {
           <div className=" inline-block items-center pt-0 lg:flex lg:flex-wrap lg:pt-4">
             <div className="lg:w-3/6">
               <h2 className="max-w-xl lg:text-[4.2em] text-3xl font-bold leading-none text-black inline-block">
-                Hi! 👋 My name is James
+                Hi!👋 My name is James
               </h2>
   
               <p className="mt-6 max-w-2xl text-xl font-semibold text-[#404040]">
