@@ -9,8 +9,9 @@ export default function Main() {
               </h2>
   
               <p className="mt-6 max-w-2xl text-xl font-semibold text-[#404040]">
-                I'm a software developer experienced in architecting & building modern, scalable business solutions
+                I&apos;m a software developer experienced in architecting &amp; building modern, scalable business solutions
               </p>
+
             </div>
             <div className="mb-20 mt-44 hidden w-full flex-col lg:mt-12 lg:inline-block lg:w-3/6">
               <img src="/images/placeholder.png" alt="Hero" />

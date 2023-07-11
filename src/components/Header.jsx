@@ -10,23 +10,23 @@ export default function Header() {
     return (
         <nav className="flex items-center justify-between bg-gray-800 py-4 pt-8 mb-20">
             <div className="flex items-center">
-                <a href="/" className="text-black text-lg font-bold">
+                <a href="" className="text-black text-lg font-bold">
                     James Darrigo
                 </a>
                 </div>
                 <div className="flex items-center">
                 <div className="hidden md:block">
                     {/* Render navigation links for larger screens */}
-                    <a href="/" className="text-black px-4">
+                    <a href="" className="text-black px-4">
                     Home
                     </a>
-                    <a href="/" className="text-black px-4">
+                    <a href="" className="text-black px-4">
                     About
                     </a>
-                    <a href="/" className="text-black px-4">
+                    <a href="" className="text-black px-4">
                     Services
                     </a>
-                    <a href="/" className="text-black px-4">
+                    <a href="" className="text-black px-4">
                     Contact
                     </a>
                 </div>
@@ -48,16 +48,16 @@ export default function Header() {
                 <div className="md:hidden">
                     {/* Render dropdown menu for smaller screens */}
                     <div className="bg-dark py-2 px-4">
-                    <a href="/" className="block text-black py-2">
+                    <a href="" className="block text-black py-2">
                         Home
                     </a>
-                    <a href="/" className="block text-black py-2">
+                    <a href="" className="block text-black py-2">
                         About
                     </a>
-                    <a href="/" className="block text-black py-2">
+                    <a href="" className="block text-black py-2">
                         Services
                     </a>
-                    <a href="/" className="block text-black py-2">
+                    <a href="" className="block text-black py-2">
                         Contact
                     </a>
                     </div>

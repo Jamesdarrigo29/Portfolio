@@ -8,22 +8,22 @@ export default function Footer() {
                 <h2 className="mb-3 text-lg tracking-widest">Est.</h2>
                 <nav className="list-none space-y-2 py-3">
                   <li>
-                    <a href="/">Vitae nec.</a>
+                    <a href="">Vitae nec.</a>
                   </li>
                   <li>
-                    <a href="/">Purus</a>
+                    <a href="">Purus</a>
                   </li>
                   <li>
-                    <a href="/">Nibh.</a>
+                    <a href="">Nibh.</a>
                   </li>
                   <li>
-                    <a href="/">Proin semper justo.</a>
+                    <a href="">Proin semper justo.</a>
                   </li>
                   <li>
-                    <a href="/">Blandit.</a>
+                    <a href="">Blandit.</a>
                   </li>
                   <li>
-                    <a href="/">Malesuada.</a>
+                    <a href="">Malesuada.</a>
                   </li>
                 </nav>
               </div>
@@ -31,22 +31,22 @@ export default function Footer() {
                 <h2 className="mb-3 text-lg tracking-widest">Et.</h2>
                 <nav className="mb-10 list-none space-y-2 py-3">
                   <li>
-                    <a href="/">Ninc elementum.</a>
+                    <a href="">Ninc elementum.</a>
                   </li>
                   <li>
-                    <a href="/">Sit ac interdum</a>
+                    <a href="">Sit ac interdum</a>
                   </li>
                   <li>
-                    <a href="/">Ac ut cras.</a>
+                    <a href="">Ac ut cras.</a>
                   </li>
                   <li>
-                    <a href="/">Sed ipsum lobortis.</a>
+                    <a href="">Sed ipsum lobortis.</a>
                   </li>
                   <li>
-                    <a href="/">Nulla maecenas nunc.</a>
+                    <a href="">Nulla maecenas nunc.</a>
                   </li>
                   <li>
-                    <a href="/">Purus</a>
+                    <a href="">Purus</a>
                   </li>
                 </nav>
               </div>
@@ -54,16 +54,16 @@ export default function Footer() {
                 <h2 className="mb-3 text-lg tracking-widest">Placerat.</h2>
                 <nav className="mb-10 list-none space-y-2 py-3">
                   <li>
-                    <a href="/">Et cursus fringilla.</a>
+                    <a href="">Et cursus fringilla.</a>
                   </li>
                   <li>
-                    <a href="/">In velit sagittis.</a>
+                    <a href="">In velit sagittis.</a>
                   </li>
                   <li>
-                    <a href="/">Mattis.</a>
+                    <a href="">Mattis.</a>
                   </li>
                   <li>
-                    <a href="/">Est.</a>
+                    <a href="">Est.</a>
                   </li>
                 </nav>
               </div>
@@ -71,21 +71,21 @@ export default function Footer() {
                 <h2 className="mb-3 text-lg tracking-widest">Messa.</h2>
                 <nav className="mb-10 list-none space-y-2 py-3">
                   <li>
-                    <a href="/">Id.</a>
+                    <a href="">Id.</a>
                   </li>
                   <li>
-                    <a href="/">Aliquam.</a>
+                    <a href="">Aliquam.</a>
                   </li>
                   <li>
-                    <a href="/">Interdum.</a>
+                    <a href="">Interdum.</a>
                   </li>
                   <li>
-                    <a href="/">Risus.</a>
+                    <a href="">Risus.</a>
                   </li>
                 </nav>
               </div>
               <div className="w-full md:w-2/4 lg:w-1/5">
-                <a href="/">
+                <a href="">
                   <div className="relative border border-black transition hover:border-gray-500">
                     <div className="absolute top-0 right-0 pt-2 pr-2">
                       <svg
@@ -126,24 +126,24 @@ export default function Footer() {
                 </h2>
               </div>
               <div className="absolute right-0 -mt-24 hidden text-black lg:inline-block">
-                <a href="/" className="mr-16">
+                <a href="" className="mr-16">
                   Terms & Conditions
                 </a>
-                <a href="/" className="mr-16">
+                <a href="" className="mr-16">
                   Privacy Policy
                 </a>
-                <a href="/" className="mr-16">
+                <a href="" className="mr-16">
                   Cookie Policy
                 </a>
               </div>
               <div className="right-0 inline-block pt-12 pb-6 pr-20 text-sm text-black md:hidden">
-                <a href="/" className="mr-16">
+                <a href="" className="mr-16">
                   Terms & Conditions
                 </a>
-                <a href="/" className="mr-16">
+                <a href="" className="mr-16">
                   Privacy Policy
                 </a>
-                <a href="/" className="mr-16">
+                <a href="" className="mr-16">
                   Cookie Policy
                 </a>
               </div>
