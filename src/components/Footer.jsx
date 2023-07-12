@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
       <>
-        <footer className="grotesk bg-[#f9fbfb]">
+        <footer className="grotesk">
           <div className="max-w-8xl mx-auto px-5 py-24 text-black">
             <div className="order-first flex flex-wrap text-left">
               <div className="w-full px-4 md:w-2/4 lg:w-1/5">

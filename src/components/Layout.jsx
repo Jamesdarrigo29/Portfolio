@@ -1,4 +1,9 @@
+import Lottie, { LottieRefCurrentProps } from "lottie-react";
+import animationData from '../assets/animations/animation.json'
+import { useRef } from "react";
+
 export default function Main() {
+    const animationRef = useRef<LottieRefCurrentProps>(null)
     return (
       <div>
         <section className="w-full text-black">
@@ -13,11 +18,15 @@ export default function Main() {
               </p>
 
             </div>
-            <div className="mb-20 mt-44 hidden w-full flex-col lg:mt-12 lg:inline-block lg:w-3/6">
-              <img src="/images/placeholder.png" alt="Hero" />
-            </div>
-            <div className="my-20 inline-block w-full flex-col lg:mt-0 lg:hidden lg:w-2/5">
-              <img src="/images/placeholder.png" alt="image" />
+            <div className="mb-20 mt-44 w-full flex-col lg:mt-12 lg:inline-block lg:w-3/6">
+             <Lottie 
+                lottieRef={animationRef}
+                animationData={animationData}
+                loop={true}
+                onComplete={() => {
+                  animationRef.current?.goToAndPlay(20, true)
+                }} 
+              />
             </div>
           </div>
         </section>
