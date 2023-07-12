@@ -3,7 +3,7 @@ import animationData from '../assets/animations/animation.json'
 import { useRef } from "react";
 
 export default function Main() {
-    const animationRef = useRef<LottieRefCurrentProps>(null)
+  const animationRef = useRef();
     return (
       <div>
         <section className="w-full text-black">
@@ -18,13 +18,13 @@ export default function Main() {
               </p>
 
             </div>
-            <div className="mb-20 w-full flex-col lg:mt-12 lg:inline-block lg:w-3/6">
+            <div id="lottie-hero" className="mb-20 mt-0 sm:mt-20 w-full flex-col lg:mt-12 lg:inline-block lg:w-3/6">
              <Lottie 
                 lottieRef={animationRef}
                 animationData={animationData}
                 loop={true}
                 onComplete={() => {
-                  animationRef.current?.goToAndPlay(20, true)
+
                 }} 
               />
             </div>

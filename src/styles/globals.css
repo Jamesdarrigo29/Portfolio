@@ -9,6 +9,9 @@ body {
   body {
     padding: 0 40px;
   }
+  #lottie-hero {
+    margin-top: 40px
+  }
 }
 
 footer {
