@@ -18,7 +18,7 @@ export default function Main() {
               </p>
 
             </div>
-            <div className="mb-20 mt-44 w-full flex-col lg:mt-12 lg:inline-block lg:w-3/6">
+            <div className="mb-20 w-full flex-col lg:mt-12 lg:inline-block lg:w-3/6">
              <Lottie 
                 lottieRef={animationRef}
                 animationData={animationData}
