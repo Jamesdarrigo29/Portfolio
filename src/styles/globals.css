@@ -5,6 +5,12 @@ body {
   padding: 0px 100px
 }
 
+@media (max-width: 640px) {
+  body {
+    padding: 0 40px;
+  }
+}
+
 footer {
   padding: 0px !important
 }
