@@ -13,7 +13,7 @@ export default function Main() {
                 Hi!👋 My name is James
               </h2>
   
-              <p className="mt-6 max-w-2xl text-xl font-semibold text-[#404040]">
+              <p className="mt-6 max-w-2xl text-xl font-semibold">
                 I&apos;m a software developer experienced in architecting &amp; building modern, scalable business solutions
               </p>
 
