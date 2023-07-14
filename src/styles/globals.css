@@ -6,6 +6,11 @@ body {
   color: white;
 }
 
+a:hover {
+  color: rgb(109, 253, 255);
+  transition: 0.5s;
+}
+
 @media (max-width: 640px) {
   body {
     padding: 0 40px;

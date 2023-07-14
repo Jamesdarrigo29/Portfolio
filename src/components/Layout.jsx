@@ -31,9 +31,9 @@ export default function Main() {
           </div>
         </section>
         <section>
-          <div className="grid grid-cols-12 h-screen w-full">
-            <div className="col-span-12 md:col-span-6 order-last md:order-first flex items-center text-center">
-              <h1 className="w-full text-center">
+          <div className="grid grid-cols-12 gap-8 flex items-center h-screen w-full">
+            {/* <div className="col-span-12 md:col-span-6 order-last md:order-first flex items-center text-center">
+              <h1 className="w-full text-3xl text-center">
                 Some of my favorite technologies!
               </h1>
             </div>
@@ -49,7 +49,10 @@ export default function Main() {
             <div className="col-span-12 md:col-span-6 text-center flex items-center">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere molestias unde ullam delectus labore voluptatibus rerum quod reprehenderit nostrum modi vel, alias ab excepturi id odit beatae officia dolore ipsam?
               Possimus voluptates nam cum perspiciatis, suscipit dolorum doloremque modi quas vero dolores odio explicabo, enim tempora consequuntur! Debitis ullam ad dolore accusamus odio vero. Quod ipsam perspiciatis consequuntur dolor animi.
-            </div>
+            </div> */}
+            <h1 className="text-5xl col-span-12 w-full text-center">
+              Coming soon! 😄
+            </h1>
           </div>
         </section>
       </div>
