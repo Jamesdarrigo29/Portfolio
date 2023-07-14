@@ -10,7 +10,7 @@ export default function Header() {
     return (
         <nav className="flex items-center justify-between bg-gray-800 py-4 pt-8">
             <div className="flex items-center">
-                <a href="" className="text-black text-lg font-bold">
+                <a href="" className="text-black text-3xl font-bold">
                     James Darrigo
                 </a>
                 </div>
