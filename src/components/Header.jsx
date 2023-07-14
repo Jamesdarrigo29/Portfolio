@@ -33,8 +33,8 @@ export default function Header() {
                 <div className="md:hidden">
                     {/* Render burger menu icon for smaller screens */}
                     <button
-                    onClick={toggleMenu}
-                    className="text-black focus:outline-none"
+                        onClick={toggleMenu}
+                        className="text-black focus:outline-none"
                     >
                     {isMenuOpen ? (
                         <FiX className="text-2xl" />

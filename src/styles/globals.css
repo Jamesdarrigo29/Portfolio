@@ -1,8 +1,8 @@
 body {
-  background-color: #ffffff;
   overflow-x: hidden;
   font-family: "Space Grotesk", sans-serif;
-  padding: 0px 100px
+  /* padding: 0px 50px; */
+  background-color: linear-gradient(to bottom, #ADD8E6, #00008B);
 }
 
 @media (max-width: 640px) {
@@ -12,6 +12,10 @@ body {
   #lottie-hero {
     margin-top: 40px
   }
+}
+
+nav {
+  margin-bottom: 40px;
 }
 
 footer {
