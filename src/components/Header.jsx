@@ -1,68 +1,95 @@
-import React, { useState } from "react";
-import { FiMenu, FiX } from "react-icons/fi";
+import React, { useState } from 'react';
 
-export default function Header() {
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
+export default function NavBar() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-    const toggleMenu = () => {
-      setIsMenuOpen(!isMenuOpen);
-    };
-    return (
-        <nav className="flex items-center justify-between bg-gray-800 py-4 pt-8">
-            <div className="flex items-center">
-                <a href="" className="text-black text-3xl font-bold">
-                    James Darrigo
-                </a>
-                </div>
-                <div className="flex items-center">
-                <div className="hidden md:block">
-                    {/* Render navigation links for larger screens */}
-                    <a href="" className="text-black px-4">
-                    Home
-                    </a>
-                    <a href="" className="text-black px-4">
-                    About
-                    </a>
-                    <a href="" className="text-black px-4">
-                    Services
-                    </a>
-                    <a href="" className="text-black px-4">
-                    Contact
-                    </a>
-                </div>
-                <div className="md:hidden">
-                    {/* Render burger menu icon for smaller screens */}
-                    <button
-                        onClick={toggleMenu}
-                        className="text-black focus:outline-none"
-                    >
-                    {isMenuOpen ? (
-                        <FiX className="text-2xl" />
-                    ) : (
-                        <FiMenu className="text-2xl" />
-                    )}
-                    </button>
-                </div>
-            </div>
-            {isMenuOpen && (
-                <div className="md:hidden">
-                    {/* Render dropdown menu for smaller screens */}
-                    <div className="bg-dark py-2 px-4">
-                    <a href="" className="block text-black py-2">
-                        Home
-                    </a>
-                    <a href="" className="block text-black py-2">
-                        About
-                    </a>
-                    <a href="" className="block text-black py-2">
-                        Services
-                    </a>
-                    <a href="" className="block text-black py-2">
-                        Contact
-                    </a>
-                    </div>
-                </div>
-            )}
-        </nav>
-    );
-  }
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
+  return (
+    <nav className="bg-gray-800">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16">
+          {/* Logo */}
+          <div className="flex-shrink-0">
+            <a href="#" className="text-white text-2xl font-semibold">
+              James Darrigo
+            </a>
+          </div>
+
+          {/* Mobile Menu Button */}
+          <div className="flex items-center -mr-2 sm:hidden">
+            <button
+              onClick={toggleMobileMenu}
+              type="button"
+              className="text-gray-500 hover:text-white focus:outline-none focus:text-white"
+            >
+              <svg
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M4 6h16M4 12h16M4 18h16"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <div className="hidden sm:flex text-xl sm:items-center">
+            <a
+              href="#"
+              className="hover:bg-gray-700 px-3 py-2 rounded-md font-medium"
+            >
+              About
+            </a>
+            <a
+              href="#"
+              className="hover:bg-gray-700 px-3 py-2 rounded-md font-medium"
+            >
+              Contact
+            </a>
+            <a
+              href="#"
+              className="hover:bg-gray-700 px-3 py-2 rounded-md font-medium"
+            >
+              Services
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* Mobile Menu */}
+      <div
+        className={`sm:hidden transition-all duration-300 ${
+          isMobileMenuOpen ? 'h-auto' : 'h-0'
+        } overflow-hidden`}
+      >
+        <div className="px-2 pt-2 pb-3 space-y-1">
+          <a
+            href="#"
+            className="text-gray-300 hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium"
+          >
+            About
+          </a>
+          <a
+            href="#"
+            className="text-gray-300 hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium"
+          >
+            Contact
+          </a>
+          <a
+            href="#"
+            className="text-gray-300 hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium"
+          >
+            Services
+          </a>
+        </div>
+      </div>
+    </nav>
+  );
+};
