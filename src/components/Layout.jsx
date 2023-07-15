@@ -5,7 +5,7 @@ import { useRef } from "react";
 export default function Main() {
   const animationRef = useRef();
     return (
-      <div>
+      <div className="px-4 lg:px-10">
         <section className="w-full h-full h-screen text-black">
           <div className=" inline-block items-center pt-0 lg:flex lg:flex-wrap lg:pt-4">
             <div className="lg:w-3/6">
@@ -31,7 +31,7 @@ export default function Main() {
           </div>
         </section>
         <section>
-          <div className="grid grid-cols-12 gap-8 flex items-center h-screen w-full">
+          <div className="gap-8 flex items-center h-screen w-full">
             {/* <div className="col-span-12 md:col-span-6 order-last md:order-first flex items-center text-center">
               <h1 className="w-full text-3xl text-center">
                 Some of my favorite technologies!
@@ -50,7 +50,7 @@ export default function Main() {
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere molestias unde ullam delectus labore voluptatibus rerum quod reprehenderit nostrum modi vel, alias ab excepturi id odit beatae officia dolore ipsam?
               Possimus voluptates nam cum perspiciatis, suscipit dolorum doloremque modi quas vero dolores odio explicabo, enim tempora consequuntur! Debitis ullam ad dolore accusamus odio vero. Quod ipsam perspiciatis consequuntur dolor animi.
             </div> */}
-            <h1 className="text-5xl col-span-12 w-full text-center">
+            <h1 className="text-5xl w-full text-center">
               Coming soon! 😄
             </h1>
           </div>

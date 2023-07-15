@@ -8,8 +8,8 @@ export default function NavBar() {
   };
 
   return (
-    <nav className="bg-gray-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className="bg-gray-800 px-4 lg:px-10">
+      <div className="mx-auto">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
@@ -19,7 +19,7 @@ export default function NavBar() {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="flex items-center -mr-2 sm:hidden">
+          <div className="flex items-center sm:hidden">
             <button
               onClick={toggleMobileMenu}
               type="button"

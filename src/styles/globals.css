@@ -13,7 +13,7 @@ a:hover {
 
 @media (max-width: 640px) {
   body {
-    padding: 0 40px;
+    padding: 10px;
   }
   #lottie-hero {
     margin-top: 40px
