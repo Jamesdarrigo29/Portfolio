@@ -22,7 +22,7 @@ export default function Main() {
              <Lottie 
                 lottieRef={animationRef}
                 animationData={animationData}
-                loop={true}
+                loop={false}
                 onComplete={() => {
                   // animationRef.current.goToAndStop(30, true)
                 }} 
