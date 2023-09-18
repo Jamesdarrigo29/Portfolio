@@ -6,10 +6,6 @@ body {
   color: white;
 }
 
-a:hover {
-  color: rgb(109, 253, 255);
-  transition: 0.5s;
-}
 
 @media (max-width: 640px) {
   body {
@@ -22,6 +18,11 @@ a:hover {
 
 nav {
   margin-bottom: 40px;
+}
+
+#navlink:hover {
+  color: rgb(106, 0, 255);
+  transition: 0.5s;
 }
 
 footer {

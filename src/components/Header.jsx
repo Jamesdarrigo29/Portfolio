@@ -42,22 +42,25 @@ export default function NavBar() {
           </div>
           <div className="hidden sm:flex text-xl sm:items-center">
             <a
+              id="navlink"
               href="#"
               className="hover:bg-gray-700 px-3 py-2 rounded-md font-medium"
             >
               About
             </a>
             <a
+              id="navlink"
               href="#"
-              className="hover:bg-gray-700 px-3 py-2 rounded-md font-medium"
+              className="px-3 py-2 rounded-md font-medium"
             >
               Contact
             </a>
             <a
+              id="navlink"
               href="#"
               className="hover:bg-gray-700 px-3 py-2 rounded-md font-medium"
             >
-              Services
+              Resume
             </a>
           </div>
         </div>
