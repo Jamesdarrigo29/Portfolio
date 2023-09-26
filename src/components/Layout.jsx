@@ -14,7 +14,7 @@ export default function Main() {
             </h2>
 
             <p className="mt-6 max-w-2xl text-xl font-semibold">
-              I&apos;m a software developer experienced in architecting &amp; building modern, scalable business solutions
+              I&apos;m a software developer experienced in architecting scalable, cutting-edge web solutions
             </p>
 
           </div>
